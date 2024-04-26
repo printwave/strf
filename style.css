@@ -1,0 +1,80 @@
+html, body {
+    height: 100%; /* Set the height of html and body to 100% of the viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    /* Gradient background */
+    background: linear-gradient(to bottom, #add8e6, #4682b4); /* Gradient from light blue to dark blue */
+    background-attachment: fixed; /* Ensure background remains fixed */
+    /* Ensure text is readable */
+    color: #333; /* Dark gray text color */
+    /* Set font size */
+    font-size: 24px; /* Set the font size of all text to 24 pixels */
+    /* Ensure content does not extend beyond viewport */
+    margin-bottom: -9999px; /* Negative margin to prevent scroll bars */
+    padding-bottom: 9999px; /* Add padding to fill the negative margin */
+}
+.about-us-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336; /* Red background color */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between the button and other elements */
+}
+.cash-button,
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Gold background color for cash */
+    color: black; /* Black text color for cash */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between the buttons */
+}
+
+.card-button {
+    background-color: gold; /* Green background color for card */
+    color: black; /* White text color for card */
+}
+/* Style for buttons and submit button */
+.button,
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between buttons */
+}
+.card-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: silver; /* Gold background color for cash */
+    color: black; /* Black text color for cash */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add some spacing between the buttons */
+}
